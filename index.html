@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+		<title>PLUnder!!!</title>
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+		<link rel="stylesheet" type="text/css" href="pietimer.css"/>
+		<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>-->
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="jquery.pietimer.js"></script>
+		<!--<script src="#"></script>-->
+		<script src="script.js"></script>
+		<script src="http://code.createjs.com/easeljs-0.6.1.min.js"></script> <!-- load easeljs library -->
+		
+	</head>
+
+	<body>
+		<div id="title"><h1>PLUnder!</div>
+		<div id="game">
+			<canvas id="display"></canvas>
+			<div id="bottom">
+				<div id="score">
+					<div id="currentScore">Score: Sample</div>
+					<!--<div id="highScore">High Score: Sample</div>-->
+				</div>
+				<div id="pad">
+					<div id="keypadDisplay"></div>
+					<div id="keys">
+						<div class="numKey">7</div>
+						<div class="numKey">8</div>
+						<div class="numKey">9</div>
+						<div id="clear" class="otherKey">Clear</div><br>
+						<div class="numKey">4</div>
+						<div class="numKey">5</div>
+						<div class="numKey">6</div>
+						<div id="skip" class="otherKey">Skip</div><br>
+						<div class="numKey">1</div>
+						<div class="numKey">2</div>
+						<div class="numKey">3</div>
+						<div id="hint" class="otherKey">Hint</div><br>
+						<div class="numKey">0</div>
+						<div class="enterKey">Enter</div>
+						<div id="invisible">&nbsp;</div>
+					</div>
+				</div>
+				<div id="timerspace">
+					<div id="timer" >
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
